@@ -1,24 +1,24 @@
 # dependencies
-/client/node_modules
-/client/.pnp
-/client.pnp.js
+/src/client/node_modules
+/src/client/.pnp
+/src/client/.pnp.js
 
 # testing
-/client/coverage
+/src/client//coverage
 
 # production
-/client/build
+/src/client//build
 
 # misc
-/client.DS_Store
-/client.env.local
-/client.env.development.local
-/client.env.test.local
-/client.env.production.local
+/src/client/.DS_Store
+/src/client/.env.local
+/src/client/.env.development.local
+/src/client/.env.test.local
+/src/client/.env.production.local
 
-/clientnpm-debug.log*
-/clientyarn-debug.log*
-/clientyarn-error.log*
+/src/client/npm-debug.log*
+/src/client/yarn-debug.log*
+/src/client/yarn-error.log*
 
 
 
