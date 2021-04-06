@@ -1,0 +1,59 @@
+@import "./variables.scss";
+
+.list-item-wrap {
+    margin-bottom: 15px;
+    
+    .list-item {
+        display: flex;
+    
+        .list-card {
+            padding: 5px 18px;
+            border-radius: 10px;
+            background: $beige;
+            flex: 1;
+            border: 1px dashed #d6c6ad;
+        }
+    
+        .list-card-bg {
+            width: 10px;
+            margin-right: 10px;
+            border-radius: 30px;
+        }
+    
+        .list-card-bg-red {
+            background: $red;
+        }
+        
+        .list-card-bg-orange {
+            background: $orange;
+        }
+        
+        .list-card-bg-green {
+            background: $green;
+        }
+    }
+    
+    .list-card-details {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 23px;
+    
+        small {
+            margin-right: 10px;
+        }
+    }   
+}
+
+.no-tasks {
+    min-height: 100px;
+    display: flex;
+    background: #fdf6ec;
+    border: 1px dashed #d6c6ad;
+    margin-top: 50px;
+    border-radius: 10px;
+
+     p {
+        margin: auto;
+        font-weight: bold;  
+     }
+}

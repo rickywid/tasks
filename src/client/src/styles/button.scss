@@ -1,0 +1,22 @@
+button,
+input[type="submit"] {
+    background: white;
+    border: 1px dashed grey;
+    margin-right: 5px;
+    width: 60px;
+    padding: 5px 0;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(238, 238, 238);
+    }
+}
+
+.task-btn {
+    cursor: pointer;
+    font-size: 13px;
+
+    &:hover {
+        color: grey;
+    }
+}

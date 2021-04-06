@@ -1,0 +1,71 @@
+.form {
+    padding: 20px 0;
+
+    form {   
+        input[type="text"], 
+        textarea {
+            width: 100%;
+        }
+
+        input[type="text"] {
+            margin-bottom: 10px;
+        }    
+        
+        .form-group-inline {
+            display: flex;
+            margin-bottom: 20px;
+    
+            .form-task-priority {
+                margin-right: 50px;
+            }
+    
+            .form-task-priority input[type="radio"] ,
+            .form-task-status input[type="radio"] {
+                margin-right: 10px;
+            }
+        }
+
+        .length-indicator {
+            text-align: right;
+            margin: 0;
+        }
+    }    
+}
+
+input,
+textarea {
+    border: 1px solid #c5c5c5;
+}
+
+
+.register-login-link {
+    display: block;
+    margin-top: 20px;
+    
+    span {
+        cursor: pointer;
+        text-decoration: underline;
+        font-style: italic;
+        color: blue;
+    }
+}
+.form-msg {
+    border-radius: 4px;
+    background-clip: border-box !important;
+    background-origin: border-box !important;
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 20px 0;
+
+    &.success {
+        color: #039c10;
+        border: 1px solid #039c10;
+        background: #f8fdf6;
+    }
+
+    &.error {
+        color: #de0a0a;
+        border: 1px solid #de0a0a;
+        background: #fdf6f6;
+    }
+}
